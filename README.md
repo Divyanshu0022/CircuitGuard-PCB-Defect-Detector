@@ -1,7 +1,7 @@
 # CircuitGuard: PCB Defect Detection & Classification System
 
 **CircuitGuard** is an automated computer vision system designed to detect and classify defects in Printed Circuit Boards (PCBs). The system utilizes reference-based image subtraction to localize defects and will eventually employ Deep Learning (EfficientNet) to classify them.
-
+> **🎓 Academic Context:** > This project was developed as a key deliverable for the **Infosys Springboard Internship**. It represents the practical application of Computer Vision and AI concepts taught during the **8-week internship program**.
 ## 🚀 Project Status
 Current Focus: **Phase 1 - Image Processing & ROI Extraction**
 
@@ -39,6 +39,8 @@ Because the dataset includes high-resolution image pairs, I have configured the 
 ---
 
 ## 🛠️ How It Works (Modules 1 & 2)
+<img width="898" height="735" alt="image" src="https://github.com/user-attachments/assets/c681b220-53e9-47cf-9a5d-34156147b61d" />
+
 
 ### **Module 1: Image Subtraction**
 We use reference-based inspection. The system takes a **Test Image** (defective) and aligns it with a **Template Image** (defect-free).
